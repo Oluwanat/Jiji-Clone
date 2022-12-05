@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: o;
+    margin: 0;
+    overflow: 0;
+}
+
+.formbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.input{
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 3px;
+    outline: none;
+}
+
+form div{
+    margin-bottom: 1rem;
+}
+
+form button{
+    width: 100%;
+    background-color: #303a4b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.3rem 0;
+}
+
+form button:hover{
+    background-color: blue;
+}

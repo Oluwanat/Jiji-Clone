@@ -1,0 +1,94 @@
+//Objects in Javascript helps to store related data in key and value pair, i.e simple data and it uses the symbol { }
+
+var person1 = {
+    fname: "Yusuf",
+    lname: "Jimoh",
+    skin: "black",
+    savings: 20000
+}
+
+var person2 = {
+    fname: "Prince",
+    lname: "Ebuka",
+    skin: "fair"
+}
+
+person1.savings = person1.savings + 10000
+
+
+//Array in Javascript stores large data related to objects, i.e complex data and it uses the symbol [ ]. It stores data in index and it starts with index 0 and ends with the total length -1
+var numberArray = [0,1,2,3,4,5,6,7,8,9,10]
+
+var alphabet = ["C", "A", "B", "C", "D", "A", "E"]
+
+const mixArray = alphabet.lastIndexOf("A")
+console.log(mixArray)
+
+var registerUserArray = [
+    {name:"Nathaniel", country:"Nigeria"},
+    {name:"Grace", country:"Canada"},
+    {name:"Deji", country:"Netherlands"},
+]
+
+console.log(person1.fname + ", your account balance is now =" + person1.savings)
+
+
+
+
+//Object of animal that has 3 key
+var animal = {
+    ani_name:"Lion",
+    ani_kingdom:"Animalia",
+    ani_specie:"Panthera Leo"
+}
+
+animal.ani_name = "hen"
+
+console.log(animal)
+
+
+//Array methods are inbuilt of the array that gives control over data that is being stored
+
+
+numberArray.map((returnItem) => {
+    console.log("the number is " + returnItem)
+})
+
+
+/*Looping means iterating over arrays of item in order to have control over the array.
+Types of loops
+1. For loop
+2. While loop
+3. Do while loop*/
+
+/*Process of looping
+1. Innitialization
+2. Condition
+3. Increment*/
+
+
+//Increment operator
+var a = 1;
+
+console.log(a)
+console.log(++a)
+console.log(++a)
+console.log(++a)
+console.log(++a)
+
+
+//For loop
+//Assignment: Create a for looping system that will print odd numbers from 0 to 50
+for(var p = 0; p<=50; p+=2) {
+    console.log(p)
+}
+
+
+
+
+
+//Assignment: Create a for looping system that will print even numbers from 0 to 50
+for(var p = 1; p<=50; p+=2) {
+    console.log(p)
+}
+

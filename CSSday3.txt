@@ -1,0 +1,49 @@
+h1{
+    color:rgb(36, 164, 238);
+    font-size: 4rem;
+    height: 50%;
+}
+
+button{
+    display: block;
+    border-radius: 30px;
+    width: 10%;
+}
+
+img{
+    width: 5vw;
+    height: 5vh;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+li{
+    margin: 01rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+    transform: translateY(20rem);
+}
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }

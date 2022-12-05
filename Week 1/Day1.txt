@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<body>
+
+    <address>No.20, Olowoira str., Ojodu-Berger, Lagos state</address>
+
+    <blockquote>He who drinks, gets drunk. He who gets drunk, goes to heaven, so let us all drink and go to heaven<cite>- Kegite club</cite></blockquote>
+
+    <marquee behavior="smooth" direction="left">I need money</marquee> <marquee behavior="smooth" direction="right">I need money</marquee>
+    <marquee behavior="smooth" direction="up">I need money</marquee>
+    <marquee behavior="smooth" direction="down">I need money</marquee>
+    <button>Click here</button>
+    
+    <a href=",/aboutus.html" target="_blank">About Us</a>
+
+    <h1>
+        <i>
+            <small>small element</small>
+        </i>
+    </h1>
+   
+    <img src="" alt="">
+
+    <button>
+        <img src="" alt="">
+        <p>paragraph</p>
+    </button>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+//While Loop
+
+var a = 1;
+while(a <=50) {
+    console.log(a)
+    a+=2
+}
+
+//Do-while loop
+var b = 0;
+do{
+    console.log(b),
+    b+=2
+}while (b <=50)
+
+//Condition in Jscript
+
+var restaurant = "eba?";
+
+if(restaurant == "eba" ||){
+    alert("igbo garri is available");
+
+}else if(restaurant=="rice"){
+    alert("rice is available");
+
+}else if(restaurant == "noodles"){
+    alert("noodles is available");
+    
+}else{
+    alert("please return my money")
+}
+    
+
+/*Logical Operators
+1. AND logic is for multiplication (*)
+2. OR logic is for addition (+)
+3. NOT logic is for subtraction (-)*/
+
+/*
+var food = "snacks";
+var drink = "Pepsi";
+
+var restaurant = "food"
+
+if(restaurant =="eba" && restaurant == "snacks"){
+    alert("buying.....");
+
+}else{
+    alert("your favorite is not available");
+}
+    
+var result = 75;
+
+if(result >= 75){
+    alert("A");
+
+}else if(result <75 && result >= 60){
+    alert("B");
+
+}else if(result <60 && result >= 50){
+    alert("C");
+
+}else if(result <50 && result >= 40){
+    alert("D");
+
+}else if(result <40 && result >= 30){
+    alert("E");
+
+}else if(result <30 && result >= 0){
+    alert("I need to see your parents");
+}
+*/
+
+/*var a = !true;
+alert(a)
+
+
+var a = "5";
+var b = 5;
+
+if(a===b){
+    alert("true")
+}else{
+    alert("false");
+}*/
+
+/* Switch
+var day = 2;
+
+switch(day){
+    case 1:
+        alert("Sunday");      if
+    case 2:
+        alert("Monday");      else if
+    case 3: 
+        alert("Tuesday");     else if
+
+    default:                  else
+        alert("I don't know the day, please don't kill me")
+}*/
+
+
+function calc(){
+    alert(1+1)
+}

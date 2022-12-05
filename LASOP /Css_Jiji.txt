@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9f9;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+:root{
+    --greencolor:#3DB839;
+
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3DB839;
+}
+
+.logo{
+    width: 20vw;
+    height: 20vh;
+    object-fit: contain;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.links li{
+    list-style-type: none;
+    margin: 01rem;
+}
+
+.links li a{
+    text-decoration: none;
+    font-size:larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#ffffff
+}
+
+.links.li a:hover{
+    transform: translateY(20rem);
+}
+
+.links li button{
+    background-color: #E18700;
+    /*border: 2px solid red;
+    outline: 2px solid blue;
+    border-radius: 50%;
+    */
+
+    border:none;
+    padding: 1vh;
+    color:#ffffff;
+    width: 10vw;
+    font-size:x-large; 
+    border-radius: 5px;
+}
+
+.banner{
+    background-color: #3A9F20;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.banner img{
+    width: fit-content;
+    height:fit-content;
+    object-fit: contain;
+}
+
+.banner .loc{
+    background-color: #303A4B;
+    color: #ffffff;
+    padding: 0.4rem;
+    opacity: 0.5;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.banner.loc:hover{
+    opacity: 1;
+}
+
+
+.banner .searchbox{
+    border: none;
+    outline: none!important;
+    background-color: transparent;
+}
+
+.banner .search{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: .6rem 0;
+    border-radius: 3px;
+}
+
+.banner .search .fa-magnifying-glass{
+    color: #3A9F20;
+    margin-right: .5rem;
+}
+
+.manimage{
+    height: 50vh;
+    width: 40vw;   
+}
+
+.girlsimage{
+    height: 50vh;
+    width: 40vw;
+}
+/*--Header Ends--*/
+
+/*--Main Styling Begins*/
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+main aside{
+    background-color: #ffffff;
+    box-shadow: 5px 0 1px solid #999;
+    flex:1;
+}
+
+main aside div{
+    font-size: 1rem;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 1rem 0.4rem;
+}
+
+main aside div:hover{
+    background-color: #f3f3f3;
+    padding: 2.5px
+}
+
+main aside div i{
+    float: right;
+}
+
+main aside{
+    flex: 1;
+}
+
+
+main section{
+    flex: 3;
+}
+
+.market{
+    margin: 1rem;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.item{
+   box-shadow: 0 0 1px #999;
+   border-radius: 5px;
+   margin:3px;
+   width: 20%;
+}
+
+.item img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.item img:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.09);
+}
+
+.item p{
+    font-weight: 200;
+    color:#303A4B
+}
+
+.item small{
+    color: #3A9F20;
+}
+
+.item .img_design{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.item .fa-bookmark{
+    font-weight: 100;
+    color: var(--greencolor);
+    position: absolute;
+    right: 20%;
+    top: 90%;
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 2px #999;
+
+}
+
+/*<--Main styling ends-->*/
+
+/*<--Footer styling begins-->*/
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    margin-top: 5rem;
+    
+}
+
+
+.footer{
+   background-color: #3DB839;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    
+}
+
+.footer a{
+    color: #fff;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    flex: 1 0;
+    display: flex;
+    text-decoration: none;
+}
+
+.footer p{
+    color: #2E9A2D;
+}
+
+div img{
+    display: flex;
+    justify-content: space-between;
+ padding-top: .5rem;
+}
+
+.copy{
+    background-color: #3DB839;
+    color: #2E9A2D;
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+
+}
+
+@media screen and (min-width:480px) and (max-width:1500px){
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

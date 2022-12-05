@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS page</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        h1{
+            color:#ff21ad;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        p{
+            color:#00e2df
+        }
+        small{
+            color:blue
+        }
+        button{
+            width: 100px;
+            background-color: rgb(20,35,100);
+            color:#fff;
+            font-weight: bolder;
+            font-style: oblique;
+            border-radius: 50px;
+        }
+        small{
+            font-size:x-large;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello world: This is RGB color code</p>
+
+    <p>Lasop: This is Hexadecimal color code</p>
+
+    <h1>Hello World</h1>
+
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fugiat adipisci, perferendis culpa et voluptatem eaque, maiores eum cupiditate temporibus itaque quod, expedita porro minima obcaecati natus totam dolorem velit!</h1>
+
+    <small>Hello world</small>
+    <button>Click me</button>
+</body>
+</html>

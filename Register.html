@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<style>
+    {
+     box-sizing: border-box;
+    }
+
+.container{
+   background-color: #000000;
+   width: 30%;
+   padding: 30px;
+   border: 1px;
+   font-size: x-large;
+}
+    h1{
+        color: #551A8B
+        
+    }
+    p{
+        font-size: large;
+        font-weight: bold;
+       color:  
+    }
+    
+    div{
+        color: #FF65C3;
+    }
+
+    select{
+        width: 20%;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 51px;
+        background-color: #FF65C3;
+    }
+
+    input{
+        width: 100%;
+        padding: 10px;
+        background-color: #f1f1f1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border:none
+    }
+
+    input :focus{
+        background-color: #ffffff;
+    }
+
+    .registerbtn{
+        width: 20%;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 51px;
+        background-color: #FF65C3;  
+    }
+
+    .registerbtn{
+        opacity: 0.9;
+    }
+</style>
+
+<body>
+
+    
+        
+    <form action="Successpage.html">
+        <div class="container">
+            <h1>Register Page</h1>
+            <p>Please fill in the form to register.</p>
+            <hr>
+
+            <div>
+                <label for="">First name:</label>
+                <input type="text" placeholder="First name" name="First name" id="First name" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="">Last name:</label>
+                <input type="text" placeholder="Last name" name="Last name" id="Last name" required>
+            </div>
+
+
+            <div>
+                <label for="">DOB:</label>
+                <input type="datetime-local" name="DOB" placeholder="DOB">
+            </div>
+            <br>
+
+            <div>
+                <label for="">Contact:</label>
+                <input type="text" name="Contact" placeholder="Contact">
+            </div>
+
+            <div>
+                <label for="">Gender:</label>
+                <input type="radio" name="Gender"> Male
+                <input type="radio" name="Gender"> Female
+            </div>
+            <br>
+
+            <div>
+                <select name="Color">
+                    <option value="Select fav color">Select fav color</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Red">Red</option>
+                    <option value="Green">Green</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="White">White</option>
+                    <option value="Black">Black</option>
+
+                </select>
+            </div>
+
+            <div>
+                <label for="">Email:</label>
+                <input type="" placeholder="info@gmail.com" name="Email" id="Email" required>
+
+
+                <label for="">Password:</label>
+                <input type="password" placeholder="Enter password" name="password" id="password" required>
+            </div>
+            <br>
+
+            
+
+
+           
+
+            <div>
+            <p>I accept the <a href="">Terms & conditions</a></p>
+            </div>
+
+            <Button type="submit" class="registerbtn">Register</Button>
+                
+            
+
+        
+
+
+
+        </div>
+
+    </form>
+</body>
+
+</html>

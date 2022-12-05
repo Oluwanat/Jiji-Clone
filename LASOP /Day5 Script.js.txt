@@ -1,0 +1,109 @@
+//Today's class
+
+//The funtion will not pop out when alert is not included
+function add(){
+    return console.log(2 * 7)
+}
+add()
+
+
+//Named Parameters
+function good(name, skin, age){
+    return console.log(name + skin + age)
+}
+good("Yusuf", "ebony", 6)
+good("Ebuka", "fair", 9)
+good("Johnson", "black", 5)
+
+
+function AreaOfCircle(r){
+    return console.log(Math.PI * Math.pow(r,2))
+}
+AreaOfCircle(5)
+
+function C2F(c){
+    return console.log(9/5 * c + 32)
+}
+C2F(56)
+
+
+//Default Parameter
+function C2F(c = 11){
+    return console.log(9/5 * c + 32)
+}
+C2F()
+
+//Global variable: var a = 56bis a global varariabe because it is outside the function and avaiable globally
+var a = 56;
+
+function C2F(c = 11){
+//Local variable: var b = 56 is a local varariabe because it is inside the function
+    var b =78
+    return console.log(a)
+}
+C2F()
+console.log(a)
+
+
+//Event
+function handleClick(){
+    alert("You click me")
+}
+
+function handleDblClick(){
+    alert("You click me")
+}
+
+function testOver(){
+    alert("You Hover ")
+}
+
+function testleave(){
+    alert("You are leaving")
+}
+
+function handleChange(value){
+    alert("value")
+}
+
+const v = document.getElementById("searchid")
+
+console.log(v)
+
+const p = document.getElementsByClassName("foot")
+console.log(p)
+
+const selector= document.getElementsByTagName("a")
+console.log(a)
+
+const q = document.getElementsByName("myname")
+console.log(q)
+
+
+//Assignment
+var a = prompt("A=");
+var a = parseInt(a)
+
+var b = prompt("B=");
+var b = parseInt(b)
+
+var c = prompt("C=");
+var c = parseInt(c)
+function x (a, b, c){
+     alert(((-1 * b) + Math.sqrt(
+        (b * b) - (a * c)* 4)) / (2 * a) + "  or")
+    alert("" + ((-1 * b) - Math.sqrt(
+        (b * b) - (a * c) * 4)) / (2 * a)
+    )
+}
+x(a, b, c)
+
+//Write an algorithm to solve ax2 + bx + c in which a, b as 3,5 as default value respectively
+var x = ("Enter value for X");
+
+var c = prompt("Enter value for C")
+
+function calc(x,c){
+    return a * (x ** 2) + b * x + c
+}
+alert(calc(3,5))
